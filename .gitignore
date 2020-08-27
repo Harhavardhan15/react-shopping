@@ -1,0 +1,7 @@
+// .gitnignore
+node_modules
+.next
+
+dist
+next.config.*
+now.json

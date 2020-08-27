@@ -1,0 +1,38 @@
+:root {
+  --bodyBg: #f0f4f8;
+  --menuBg: #2874F0;
+  --progressBar: yellow;
+}
+
+body {
+  background: #e9edf3!important;
+}
+
+#menu {
+  background: var(--menuBg);
+  border-radius:0px;
+}
+
+/* Overrides default styled accordion styles (too much bottom padding) */
+.ui.styled.accordion .content {
+  margin: 0;
+  padding: 0.5em 1em 0.75em !important;
+}
+ 
+.shoppingcard{
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,.08)!important;
+}
+.bg{
+  background:white;
+  padding:20px;
+}
+.sign{
+  width:30%;
+  margin:0 auto;
+}
+
+@media only screen and (max-width:767px){
+  .sign{
+    width:100%;
+  }
+}
